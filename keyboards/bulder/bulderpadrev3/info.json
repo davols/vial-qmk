@@ -10,7 +10,8 @@
         "console": false,
         "extrakey": true,
         "mousekey": true,
-        "nkro": true
+        "nkro": true,
+        "encoder": true
     },
     "matrix_pins": {
         "cols": ["GP9", "GP8", "GP7"],
@@ -37,5 +38,11 @@
                 { "matrix": [2, 2], "x": 2, "y": 2 }
             ]
         }
+    },
+    "encoder": {
+        "rotary": [
+            { "pin_a": "GP28", "pin_b": "GP22", "resolution": 4 }
+            { "pin_a": "GP27", "pin_b": "GP26", "resolution": 4 }
+        ]
     }
 }
