@@ -14,8 +14,8 @@
         "encoder": true
     },
     "matrix_pins": {
-        "cols": ["GP9", "GP8", "GP7"],
-        "rows": ["GP4", "GP5", "GP6"]
+        "cols": ["GP21", "GP23", "GP20"],
+        "rows": ["GP27", "GP26", "GP22"]
     },
     "processor": "RP2040",
     "url": "",
@@ -41,8 +41,8 @@
     },
     "encoder": {
         "rotary": [
-            { "pin_a": "GP28", "pin_b": "GP22", "resolution": 4 }
-            { "pin_a": "GP27", "pin_b": "GP26", "resolution": 4 }
+            { "pin_a": "GP3", "pin_b": "GP6", "resolution": 4 }
+            { "pin_a": "GP4", "pin_b": "GP5", "resolution": 2 }
         ]
     }
 }
