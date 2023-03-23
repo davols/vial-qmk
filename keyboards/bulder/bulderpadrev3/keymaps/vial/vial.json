@@ -1,30 +1,53 @@
 {
-    "name": "BulderPad",
-    "matrix": {
-        "rows": 3,
-        "cols": 3
-    },
-    "layouts": {
-        "keymap": 
+   "name":"BulderPad",
+   "matrix":{
+      "rows":3,
+      "cols":3
+   },
+   "layouts":{
+      "keymap":
 [
+  {
+    "name": "BulderPad",
+    "author": "bulder",
+    "switchMount": "cherry",
+    "pcb": true
+  },
+  [
+    "0,0\n\n\n\n\n\n\n\n\ne",
+    "0,1\n\n\n\n\n\n\n\n\ne",
+    {
+      "x": 1
+    },
+    "2,0\n\n\n\n\n\n\n\n\ne",
+    "2,1\n\n\n\n\n\n\n\n\ne"
+  ],
   [
     {
-      "y": 1
+      "y": 0.75,
+      "x": 1
     },
     "0,0",
-    "1,0",
-    "2,0"
-  ],
-  [
     "0,1",
-    "1,1",
-    "2,1"
+    "0,2"
   ],
   [
-    "0,2",
-    "1,2",
+    {
+      "x": 1
+    },
+    "1,0",
+    "1,1",
+    "1,2"
+  ],
+  [
+    {
+      "x": 1
+    },
+    "2,0",
+    "2,1",
     "2,2"
   ]
 ]
-    }
+      
+   }
 }
